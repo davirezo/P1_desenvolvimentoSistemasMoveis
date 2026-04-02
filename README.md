@@ -23,6 +23,24 @@ lib/
 
 ---
 
+## 🧠 Organização do Projeto
+
+A estrutura do projeto foi baseada no padrão **MVVM (Model-View-ViewModel)**, com o objetivo de manter o código organizado, escalável e de fácil manutenção.
+
+* **Models**: responsáveis por representar os dados da aplicação
+* **Data**: camada que simula ou gerencia a fonte de dados (mock ou futura integração com API)
+* **ViewModels**: fazem a ponte entre a interface e a lógica da aplicação
+* **Views**: responsáveis pela interface visual (telas do app)
+
+Essa separação permite:
+
+* Melhor organização do código
+* Facilidade para manutenção e evolução do projeto
+* Separação clara entre lógica de negócio e interface
+* Possibilidade de reaproveitamento de código
+
+---
+
 ## 📱 Tecnologias utilizadas
 
 * Flutter
